@@ -15,7 +15,7 @@ with open(file_name, mode='r') as input_file:
     header = next(csv_reader)
     
     # Add a new column name to the header
-    header.append('C-40-O Mods')
+    header.append('Mods')
     
     # Open the output CSV file
     with open(output_file_name, mode='w', newline='') as output_file:
